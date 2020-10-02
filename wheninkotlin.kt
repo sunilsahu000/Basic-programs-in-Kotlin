@@ -3,11 +3,11 @@
 
 fun main(args : Array<String>)
 {
-    val choice = 10 
+    val choice = 15 
     when(choice)
     {
-        10 -> print("10")
-        11 -> print("11")
+      in 10..20-> print("10")
+       in  20..30-> print("11")
         else ->
         {
             print("enter valid choice")
